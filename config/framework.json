@@ -1,0 +1,38 @@
+{
+  "urls": {
+    "holidayCalculator": "https://www.gov.uk/calculate-your-holiday-entitlement",
+    "localApp": "http://127.0.0.1:8080/"
+  },
+  "localAppRoot": "public",
+  "browser": {
+    "default": "chromium",
+    "headless": true,
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "mobileViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "narrowViewport": {
+      "width": 320,
+      "height": 800
+    },
+    "highZoom": 4
+  },
+  "timeouts": {
+    "action": 10000,
+    "navigation": 30000,
+    "expectation": 5000,
+    "screenshot": 10000,
+    "healthRequest": 10000,
+    "localServerStartup": 30000,
+    "localServerProbe": 2000,
+    "localServerPoll": 300,
+    "step": 60000
+  },
+  "performance": {
+    "pageLoadBudgetMs": 5000
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.git/
+.idea/
+reports/
+allure-results/
+allure-report/
+test-results/
+dist/
+.env
+.env.*

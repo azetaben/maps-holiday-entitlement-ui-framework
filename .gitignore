@@ -1,0 +1,9 @@
+node_modules/
+dist/
+reports/
+logs/
+allure-results/
+allure-report/
+.allure-history-*/
+playwright-report/
+test-results/
